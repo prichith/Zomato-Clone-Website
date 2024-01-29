@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+/* :root{
+    --primary_color:
+} */
+li{
+    list-style:none;
+    padding-left:23px;
+    font-size: 20px;
+}
+/* Header */
+    .main-image{
+        background-size: cover;
+        height: 560px;
+        background-image: url("images/main-image.webp");
+    }
+    .header{
+        width: 100%;
+        height: 70px;
+        padding-top: 0px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        color: white;
+    }
+    #signup{
+        padding-right: 188px;
+    }
+    .title{
+        color: white;
+        margin-top: 200px;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+    #zomato{
+        width: 290px;
+        height: 50px;
+    }
+/* END Header */
+/* Banner */
+    .banner .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .caption{
+        font-family: Okra, Helvetica, sans-serif;
+        max-width: 530px;
+    }
+    .indianflag{
+        width: 60px;
+        height: 35px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .containermiddle{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: x-large;
+        font-family: Helvetica;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }  
+    @font-face {
+            font-family: Helvetica ;
+            src: url("OFL.txt");
+        }
+    .para{
+        color: rgb(105, 105, 105);
+        text-align: center;
+        font-size: 1.3rem;
+        padding: auto 340px;
+        word-spacing: 6px;
+        max-width: 890px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    .paradiv{
+        text-align: center;
+    }
+    #text{
+        font-weight: 100;
+    }
+/* END Banner */
+/* cities in india */
+    .city-container{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 40px;
+        background: white;
+    }
+    .city-container .container{
+        display: flex;
+        gap: 90px;
+    }
+    .resbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* box-shadow: -7px 0px 10px grey; */
+        width: 300px;
+        height: 65px;
+        background: white;
+        padding: 0px 30px;
+        margin-bottom: 40px;
+        border: 1px solid rgb(232, 232, 232);
+        border-radius: 0.8rem;
+    }
+    .resbar:hover{
+        box-shadow: 0px 1px 3px grey;
+    }
+    .arrow{
+        width: 15px;
+        height: 15px;
+    }
+/* END cities in india */
+/* List of countries */
+.countries{
+    flex-direction: column;
+    gap: 30px;
+}
+#allcountries{
+    font-size: 38px;
+    font-weight: 550;
+}
+.flag{
+    width: 55px;
+    height: 35px;
+    padding-right: 10px;
+}
+.country{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    box-sizing: border-box;
+    background: #E9ECEF;
+    width: 100%;
+    height: 500px;
+    padding: 0px 50px;
+}
+.footertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    width: 110px;
+    height: 35px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+.lastflag{
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+.india{
+    font-size: 15px;
+    padding-right:10px ;
+}
+#lastbuttons{
+    display: flex;
+}
+#lastbuttons button{
+    border: 1px solid lightgrey;
+    padding: 18px 11px 18px 8px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footerbottom ul li{
+    padding-bottom: 20px;
+}
+.icon{
+    height: 22px;
+    width: 22px;
+}
+.googlebar{
+    width: 137px;
+    height: 38px;
+    border-radius: 5%;
+    margin-bottom: 8px;
+}
+p{
+    color: rgb(105, 105, 105);
+    font-size: 17px;
+    -webkit-tap-highlight-color: transparent;
+}
+a{
+    text-decoration: none;
+    color : inherit;
+}
+h3{
+    font-weight: 600;
+    color: #343a40;
+}
